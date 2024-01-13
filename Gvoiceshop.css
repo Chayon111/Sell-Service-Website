@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1000px) {
+  .wellcome {
+    padding-top: 50px;
+  }
+  .about_btn {
+    margin: 30px 300px;
+    padding: 0px 30px;
+  }
+}
+body {
+  background-color: aqua;
+  /* background-color: #0066ff; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logo img {
+  width: 200px;
+  height: 100px;
+  margin: 20px 20px 0px 20px;
+  border-radius: 50%;
+  box-shadow: 3px 2px 3px;
+}
+.wellcome {
+  position: relative;
+  top: -50px;
+  font-size: 45px;
+  text-align: center;
+  color: #090975;
+  text-shadow: 3px 2px 3px #176917;
+}
+.best_ser {
+  display: block;
+}
+.services {
+  position: relative;
+  top: -40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.service_desing {
+  width: 300px;
+  height: 250px;
+  border: 1px solid #d9ff05;
+  text-align: center;
+  box-shadow: 2px 5px 5px #090975;
+}
+.services p {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.services span {
+  font-size: 20px;
+}
+
+.footer {
+  position: relative;
+  top: -40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  text-align: center;
+}
+.footer_desing {
+  width: 400px;
+  height: 155px;
+  border: 1px solid #ff03f2;
+  box-shadow: 2px 5px 7px;
+}
+.margin-bottom_GV_GM {
+  margin: 5px 0px 45px 0px;
+}
+.margin-bottom {
+  margin: 5px 0px 17px 0px;
+}
+.services label {
+  margin-top: 100px;
+  font-size: 20px;
+}
+input[type="number"] {
+  width: 80px;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 22px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.services input[type="text"] {
+  width: 95px;
+  padding: 7px;
+  font-size: 20px;
+}
+input[type="submit"] {
+  display: block;
+  width: 80px;
+  margin: 7px 109px 0px 109px;
+  padding: 5px;
+  font-size: 22px;
+  border: 2px solid aqua;
+}
+/*================= All service color and hover start ============================ */
+.gvoice {
+  background-color: #00800077;
+}
+.gvoice:hover {
+  background-color: #176917;
+}
+
+.gmail {
+  background-color: #75ee049c;
+}
+.gmail:hover {
+  background-color: #54a805ea;
+}
+
+.for_text {
+  background-color: aquamarine;
+}
+.for_text:hover {
+  background-color: #0aa874;
+}
+
+.for_voice {
+  background-color: #ffc831a1;
+}
+.for_voice:hover {
+  background-color: #c49924b2;
+}
+
+.footer_desing {
+  background-color: #20a0a071;
+  border-color: #b007ff;
+}
+
+.footer_desing:hover {
+  color: #f0f8ff;
+  background-color: #073333af;
+  border-color: #4dff07;
+  border-radius: 20px;
+}
+
+.service_desing:hover {
+  color: aliceblue;
+  border-color: crimson;
+  border-radius: 30px;
+}
+input[type="submit"]:hover {
+  background-color: #ffffffaf;
+  border-radius: 15px;
+  border-color: red;
+}
+
+/*================= All service color and hover end ============================ */
+.about_btn {
+  width: 200px;
+  height: 100px;
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  box-shadow: 2px 3px 5px;
+  border: 1px solid #b007ff;
+  background-color: #4dff0779;
+}
+.about_btn:hover {
+  background-color: #3aa111;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
+#Review_input {
+  margin-left: 40px;
+}
+.Review_btn {
+  padding-top: 5px;
+  font-size: large;
+  border-radius: 3px;
+  border: 1px solid #4dff07;
+}
+.Review_btn:hover {
+  background-color: #b5b5d4;
+  color: #090975;
+  border-style: none;
+  padding: 2px;
+  border-radius: 5px;
+}
+.Show_btn {
+  padding: 3px;
+  font-size: medium;
+  border-radius: 3px;
+  border: 1px solid #4dff07;
+}
+.Show_btn:hover {
+  background-color: #9696cf;
+  color: #090975;
+  padding: 3px 7px 3px 7px;
+}
+.contact h2 {
+  margin-bottom: 5px;
+}
+.contact h4 {
+  padding: 8px 0px;
+}
+.contact h4 a {
+  text-decoration: none;
+  color: aliceblue;
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #663399;
+}

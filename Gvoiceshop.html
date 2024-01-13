@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GvoiceShop</title>
+    <link rel="stylesheet" href="Gvoiceshop.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="https://nextplane.net/wp-content/uploads/2020/01/google-voice-1000x530.png" alt="Logo">
+    </div>
+    <h1 class="wellcome">Wellcome to our GvoiceShop <span class="best_ser">Get our best services</span> </h1>
+    <div class="services">
+        <div class="gvoice service_desing">
+            <h2 class="margin-bottom_GV_GM">Google Voice</h2>
+
+            <p>Price: <span id="gv_price"> $4.50</span></p> <!--  =========== If you change GV price please change here -->
+
+            <form action="">
+                <label for="">Enter how much you want to buy</label>
+                <input id="input_gv" type="number" required onkeyup="gv_price_multiply(this.value);" ><span>=</span>
+                <input id="gv_show_amount" type="text" value="$" readonly>
+                <input type="submit" value="Buy" onclick="gv_openwindow()">
+            </form>
+        </div>
+
+        <div class="gmail service_desing">
+            <h2 class="margin-bottom_GV_GM">Gmail</h2>
+
+            <p>Price: <span> $0.80</span></p>  <!--  =========== If you change Gmail price please change here -->
+
+            <form action="">
+                <label for="">Enter how much you want to buy</label>
+                <input id="input_gmail" type="number" required onkeyup="Gmail_price_multiply(this.value);" ><span>=</span>
+                <input id="Gmail_show_amount" type="text" value="$" readonly>
+                <input type="submit" value="Buy" onclick="gmail_openwindow();">
+            </form>
+        </div>
+
+        <div class="for_text service_desing">
+            <h2 class="margin-bottom">USA number for just text verify</h2>
+
+            <p>Price: <span> $3.50</span></p>  <!--  =========== If you change text verify number price please change here -->
+
+            <form action="">
+                <label for="">Enter how much you want to buy</label>
+                <input id="input_text" type="number" required onkeyup="text_price_multiply(this.value);" ><span>=</span>
+                <input id="text_show_amount" type="text" value="$" readonly>
+                <input type="submit" value="Buy" onclick="text_openwindow();">
+            </form>
+        </div>
+
+        <div class="for_voice service_desing">
+            <h2  class="margin-bottom">USA number for just voice verify</h2>
+
+            <p>Price: <span> $3.20</span></p> <!--  =========== If you change voice verify number price please change here -->
+
+            <form action="">
+                <label for="">Enter how much you want to buy</label>
+                <input id="input_voice" type="number" required onkeyup="voice_price_multiply(this.value);" ><span>=</span>
+                <input id="voice_show_amount" type="text" value="$" readonly>
+                <input type="submit" value="Buy" onclick="Voice_openwindow();">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="contact footer_desing">
+            <h2>Contact our team members</h2>
+           <h4> Email our team members :<a href="mailto:email@example.com">Send Email</a></h4> <!--  change your contact mail here -->
+           <h4> Teligram our team members : @Teligram</h4>
+           <h4> Whatsapp our team members : +880 1956351564</h4>
+
+        </div>
+
+        <a href="about.html" target="self"><button class="about_btn"> About ourself</button></a>
+
+        <div class="review footer_desing">
+            <h2>Coustomer Review</h2>
+                <form action="">
+                    <textarea required name="" id="Review_input" cols="30" rows="4" placeholder="Please share your opinion get after our service "></textarea>
+                    <button class="Review_btn">submit</button>
+                </form>
+            
+            <h3>Show our all coustomers review</h3>
+            <button class="Show_btn">Show</button>
+        </div>    
+    </div>
+
+ <script src="Gvoiceshop.js"></script>   
+</body>
+</html>

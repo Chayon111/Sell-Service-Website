@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+}
+.logo img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 200px;
+  height: 100px;
+  margin: 20px 20px 0px 20px;
+  border-radius: 50%;
+  box-shadow: 3px 2px 3px;
+}
+.about h1,
+h2,
+h3 {
+  text-align: center;
+}
+.about h4 {
+  position: relative;
+  left: 40%;
+  padding: 5px 0px 5px;
+}
+.about h1 {
+  color: #2e2ea5;
+  text-shadow: 2px 2px 2px;
+}
+.about h2 {
+  padding-top: 30px;
+  color: #e26817;
+  text-shadow: 2px 2px 2px;
+}
+.about h3 a {
+  text-decoration: none;
+  padding-top: 30px;
+  color: #e217c0;
+  text-shadow: 1px 2px 2px;
+}
+.about h3 {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  color: #08351a;
+  text-shadow: 1px 2px 2px;
+}
